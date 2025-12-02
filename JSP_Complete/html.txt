@@ -1,0 +1,104 @@
+1).   <html>
+Starts the HTML document. All HTML content should be inside this root element.
+
+2).   <head>
+The head section contains metadata about the page (title, styles, meta tags, links to scripts/CSS).
+
+3).   <title> Hello World </title>
+The <title> element sets the page title shown in the browser tab. Here it will display Hello World.
+
+4).   </head>
+Closes the head section.
+
+5).   <body>
+Begins the body of the HTML document — the visible content delivered to the browser.
+
+6).   Hello World ! <br/>
+Plain HTML text "Hello World !" shown on the page followed by <br/>, an HTML line break (moves subsequent content to a new line).
+
+7).   <h2 style="text-align: center;">
+Starts an <h2> heading element and sets an inline CSS style to center its contents horizontally.
+
+8).   <%
+Opens a JSP scriptlet. Anything between <% and %> is Java code that the JSP engine executes on the server when the page is requested. The scriptlet runs while the JSP is translated into and executed as a servlet.
+
+9).   out.println("My First JSP Page!");
+Java statement inside the scriptlet:
+out is an implicit JSP object (a JspWriter) made available automatically by the JSP container. It writes content to the HTTP response stream (the HTML sent to the browser).
+
+println("My First JSP Page!") writes the string My First JSP Page! followed by a newline into the response at that point in the page.
+So this line prints that text into the page inside the <h2> element.
+
+10).   %>
+Closes the JSP scriptlet.
+
+11).   </h2>
+Closes the <h2> heading element. The text produced by the scriptlet appears inside this heading and will be centered (because of the style).
+
+12).   </body>
+Closes the body element.
+
+13).   </html>
+Closes the HTML document.
+
+
+-> Meaning of text-align
+
+text-align is a CSS (Cascading Style Sheets) property used to control the horizontal alignment of text (and inline content) inside an HTML element.
+
+-> In HTML (and JSP, which generates HTML), they are used to define headings:
+Tag	Purpose	Visual Size
+<h1>	Main heading (largest)	Biggest
+<h2>	Sub-heading of <h1>	Smaller
+<h3>	Sub-heading of <h2>	Even smaller
+...	...	...
+<h6>	Smallest heading	Smallest
+
+
+-> Where <li> is used
+
+The <li> tag must be used inside either:
+
+<ul> — unordered list (bulleted)
+
+<ol> — ordered list (numbered)
+
+---->   Use Cases of <li>:
+
+Navigation menus
+Steps in a process
+Displaying looped data (e.g., in JSP or JavaScript)
+To-do lists or checklists
+
+-> The <!DOCTYPE html> declaration in HTML is very important—it tells the browser what version of HTML you're using, so the browser knows how to interpret and render your web page.
+
+->  JSP Rule to Remember:
+Task	Use This
+Write Java code	<% ... %>
+Print a Java value	<%= ... %>
+Write HTML	Outside any <% ... %> blocks
+
+-> Tag	Purpose
+<strong>	Makes text bold and semantically important
+<b>	        Makes text bold only visually
+</strong>	Closes the <strong> tag
+
+-> <table></table>
+
+<table> — Starts the Table
+It tells the browser: "Hey, I’m starting a table here."
+Everything related to the table must be inside this tag.
+
+-> <tr></tr>
+
+<tr> — Table Row (Horizontal Line of Cells)
+Stands for "table row"
+It wraps one full row of data in the table.
+For each value of i (like 1 to 20), you usually create one row.
+
+-> <td></td>
+
+<td> — Table Data (Each Cell/Represents one cell of data (column))
+Stands for "table data"
+It represents a single cell inside a row (<tr>).
+Inside the <td>, you can display any data —
