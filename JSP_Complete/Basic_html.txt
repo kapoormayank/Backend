@@ -1,0 +1,125 @@
+                                           BASIC HTML
+🔹 1. Introduction to HTML
+What is HTML?
+History and versions
+Role in web development
+
+🔹 2. HTML Document Structure
+<!DOCTYPE html> : (pronounced “document type HTML”) is a declaration that tells the web browser what type of document it is reading — specifically, that it’s an HTML5 document.
+
+<html> : marks the beginning of the HTML document.
+<head> : contains page metadata.
+<title> : title of the page.
+<body> : the main content of the page.
+
+🔹 3. Text Formatting Tags
+Headings: <h1> to <h6>
+Paragraphs: <p>
+Line breaks: <br>
+Horizontal rules: <hr>
+Bold, Italic, Underline: <b>, <i>, <u>
+
+Superscript/Subscript: <sup>, <sub>
+
+🔹 4. HTML Elements and Attributes
+What are elements and tags?
+Global attributes: id, class, style, title
+
+🔹 5. Lists
+Ordered list: <ol>
+Unordered list: <ul>
+List items: <li>
+
+🔹 6. Links
+Anchor tag: <a href="">
+Target attribute for opening in new tab
+
+🔹 7. Images
+Image tag: <img src="" alt="">
+Width and height attributes
+
+🔹 8. Tables
+<table>, <tr>, <td>, <th>
+Table attributes: border, colspan, rowspan
+
+🔹 9. Forms
+<form>
+1️⃣ What <form> Does
+The <form> element is the container for user inputs and controls how data is sent to the server.
+Think of it as a box that collects all the input data (like text boxes, checkboxes, radio buttons) and sends it to your JSP or backend for processing
+
+2️⃣ Key Attributes of <form>
+Attribute	Purpose	Example
+method	How to send the data to the server	GET or POST
+action	The URL or page that will handle the form data	<filename.jsp>
+enctype	Encoding type for sending files	multipart/form-data for file uploads
+
+---> Input types: <input type="text">, password, checkbox, radio, submit
+Not everything you can type into is <input>. Forms have different components for different types of user input:
+
+---> Component	Example	Purpose
+<input type="text">	Single line text	Name, email, etc.
+<input type="password">	            Password	Hides user input
+<input type="checkbox">	✅	        Select multiple options
+<input type="radio">	⚪	    Select one option from a group
+<textarea>         Multi-line text  Messages, comments
+<select>	   Dropdown list    Pick one or multiple options
+<button> or <input type="submit">   Submit button	Send form to server
+
+<label> element is used to give a text description for a form input.
+<textarea>, <select>, <option>
+
+🔹 10. Semantic Elements
+<header>, <footer>, <main>, <section>, <article>, <nav>, <aside>
+
+🔹 11. Media
+Audio: <audio controls>
+Video: <video controls>
+Embed content: <iframe>
+
+🔹 12. HTML Entities
+&nbsp;, &lt;, &gt;, &amp;, etc.
+
+🔹 13. Comments in HTML
+Syntax: <!-- This is a comment -->
+
+🔹 14. Block vs Inline Elements
+Block elements: <div>, <p>, <h1> etc.
+Inline elements: <span>, <a>, <img> etc.
+
+🔹 15. HTML5 Features
+New semantic tags
+Input types: date, email, range
+Local storage and geolocation (with JS)
+
+✅ Difference Between <strong> and <b>
+
+Tag	        Meaning	                 Appearance	Purpose
+<strong>	Important content	Bold (default)	Semantic emphasis: used when content is important or urgent
+<b>	        No special meaning	Bold	        Purely visual — just makes text bold without implying importance
+<div>: The div element has no special meaning at all. It represents its children. It can be used with the class, lang, and title attributes to mark up semantics common to a group of consecutive elements.
+
+
+
+
+Quick memory tip:
+<%@ %> → Directive (server instructions)
+<% %> → Code (logic, not visible)
+<%= %> → Expression (visible output)
+
+
+---> The <center> tag is used in your HTML code to center-align whatever content is inside it
+
+---> The <main> tag is an HTML5 semantic element used to identify the main content area of a webpage — the part that is unique to that page and directly related to its central topic or function.
+
+---> They always begin with <jsp:...> — for example:
+
+Action	Description
+<jsp:include>	Includes another resource at request time
+<jsp:forward>	Forwards the request to another resource
+<jsp:param>	Adds a parameter to include or forward
+<jsp:useBean>	Creates or accesses a JavaBean
+<jsp:setProperty> / <jsp:getProperty>	Manipulates bean properties
+<jsp:plugin>	Embeds a Java applet or plugin
+<jsp:flush>	Flushes the output buffer
+
