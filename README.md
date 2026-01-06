@@ -73,6 +73,7 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
    - ├── JDBC (Java Database Connectivity) i.txt
    - └── JDBC.txt
 
+ --- 
 
 -  JDBC_Projects/
   -  ├── Project_of_store/
@@ -100,13 +101,80 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
        - ├── TruncateCommand.java
        - └──  UpdateCommand.java
 
+  ---
 
 -  JSP_Complete/
+
    - ├── Action_JSP
-   - ├── Basicof_JSP/
+       - ├── jsp_useBean/
+            - ├── Abstraction/
+                - └── Abstraction.jsp
+            - ├── Encapuslation/
+                - └── Encapuslation.jsp
+            - ├── Interface/
+                - └── Interface.jsp
+            - ├── Polymorphism_Abstraction/
+                - └── Polymorphism_Abstraction.jsp
+       - ├── Date.jsp
+       - ├── PrintDate.jsp
+       - ├── destination.jsp
+       - └── forward.jsp
+
+    - ├── Basicof_JSP/
+       - ├── DatePrint.jsp
+       - ├── Scriplet.jsp
+       - ├── SimplePrint.jsp
+       - ├── SumofDigits.jsp
+       - ├── TernaryOperator.jsp
+       - └── if-else.jsp
+
    - ├── Dirvectives_JSP/
+       - ├── Footer.jsp
+       - ├── Header.jsp
+       - ├── HeaderofDate.jsp
+       - ├── Print.jsp
+       - ├── PrintDate.jsp
+       - └── footerOfDate.jsp
+
    - ├── Elementof_JSP/
+       - ├── Loop_JSP/
+           - ├── CountDown.jsp
+           - ├── Factorial.jsp
+           - ├── Loop.jsp
+           - ├── MultiplicationTable.jsp
+           - ├── OddEven.jsp
+           - ├── Pattern.jsp
+           - ├── Reverse.jsp
+           - ├── StringArray.jsp
+           - ├── SumofDigits.jsp
+           - └── Tables.jsp
+       - ├── Searching/
+           - ├── BinarySearch.jsp
+           - ├── Ceil_floor.jsp
+           - └── LinearSearch.jsp
+       - ├── Boxing.jsp
+       - ├── DecalringVariable.jsp
+       - ├── Dice_Game.jsp
+       - ├── Final_Keyword.jsp
+       - ├── Parse_function.jsp
+       - ├── Scriplet.jsp
+       - ├── Switch.jsp
+       - ├── WrappedClass.jsp
+       - └── valueOfKeyword.jsp
+
    - ├── Form Processing/
+       - ├── CheckInfo.jsp
+       - ├── Checkbox.jsp
+       - ├── CompleteTask.jsp
+       - ├── CompleteTaskInfo.jsp
+       - ├── FoodOrder.jsp
+       - ├── GetMethod.jsp
+       - ├── Information.jsp
+       - ├── InformationInfo.jsp
+       - ├── InputName.jsp
+       - ├── PostMethod.jsp
+       - └── foodInfo.jsp
+       - 
    - ├── JDBC_JSP/
        - ├── BatchProcessing_DML_Commands/
           - ├── DeleteCommand.jsp
@@ -136,7 +204,12 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
       - ├── MVC_Login.jsp
       - └── MVC_Logout.jsp
    - └── Sessionsof_JSP/
+       - ├── CheckSession.jsp
+       - ├── Date.jsp
+       - ├── LogoutSession.jsp
+       - └── Session.jsp
 
+  ---
 
 -  J2EE_Projects/
    - ├── Online Quizz/
